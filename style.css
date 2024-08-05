@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  body.home {
+    background: url('images/cyber-security-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  body.srm {
+    background: url('images/srm-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .whiteheader {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .unit {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    transition: background-color 0.3s ease;
+  }
+  
+  .unit:hover {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly more opaque on hover */
+  }
+  
+  .unit-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .unit-description {
+    margin-bottom: 20px;
+  }
+  
+  .unit-description p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .about-me {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-me h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  
+  .about-me p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .unit-title {
+      font-size: 20px;
+    }
+  
+    .unit-description p {
+      font-size: 14px;
+    }
+  }
+  
